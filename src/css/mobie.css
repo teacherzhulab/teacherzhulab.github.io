@@ -1,0 +1,144 @@
+@media screen and (max-width: 768px) {
+
+ul#menue_line li{
+    width:100%;
+}
+div.thirds_colum,div.two_thirds_colum,div.one_thirds_colum{
+    width:95%;
+    margin-left:2.5%;
+}
+div.fouths_colum{
+    width:95%;
+    margin-left:2.5%;
+}
+div.fifths_colum{
+    width:100%;
+    margin-left:2.5%;
+}
+ul#menue_line li{
+    font-size:large;
+    min-height:48px;
+
+}
+ul#menue_line{
+    min-height:48px;
+}
+.hidden-large{
+    display:block;
+}
+.hidden{
+    display:none;
+}
+.hidden-small{
+    display:none;
+}
+.row_box{
+    display:block;
+}
+div#menue-buttom{
+    text-align:center;
+}
+.right_title{
+    text-align:left;
+}
+div#munue-icon-box{
+    margin-left:calc(50% - 24px);
+    width:48px;
+    overflow:hidden;
+}
+img#menue-icon{
+    height:36px;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+img.buttom_top{
+    margin-left:-57px;
+}
+img.buttom_menue{
+    margin-left:0;
+
+}
+.large-only{
+    display:none;
+}
+.large-middle{
+    display:none;
+}
+.small-only{
+    display:block;
+}
+div.center_inline{
+    width:100%;
+}
+div.ele_fouth{
+    width:100%;
+}
+p.introduction{
+    width:calc( 100% - 2em - 24px );
+}
+.left_describe_div{
+    width:100%;
+}
+div#fangsshortdescrible{
+    padding-bottom:1.5em;
+}
+.left_larger_describe_div{
+    width:100%;
+}
+.right_context_div{
+    width:100%;
+    padding-left:0;
+    border-bottom:2px #767171 dashed;
+}
+.right_smaller_context_div{
+    width:100%;
+    padding-left:0;
+    margin-left:0;
+    border-bottom:2px #767171 dashed;
+}
+.center_element{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+}
+div#fangsshortdescrible{
+    margin-top:-65px;
+    padding-left:16px;
+}
+div.three_fouth{
+    width:calc( 100% - 2em );
+    margin-left: -1em;
+}
+.right-context-box{
+    width:calc( 100% - 40px )
+}
+div.meetingnews,div.groupmeetingnews{
+    height:unset;
+    min-height:220px;
+    padding-bottom:15px;
+}
+.right_context_div{
+    margin-left:0;
+}
+}
+@media screen and (max-width: 968px) and (min-width: 768px){
+
+.center_element{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+
+}
+div.center_inline{
+    width:100%;
+}
+.large-only{
+    display:none;
+}
+div.ele_fouth{
+    width:33.3%;
+}
+div.three_fouth{
+    width:calc( 100% - 40px );
+}
+}
